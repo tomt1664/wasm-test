@@ -7,13 +7,11 @@
   "files": [
     "my_project_bg.wasm",
     "my_project.js",
-    "my_project_bg.js",
     "my_project.d.ts"
   ],
   "module": "my_project.js",
   "types": "my_project.d.ts",
   "sideEffects": [
-    "./my_project.js",
     "./snippets/*"
   ]
 }
